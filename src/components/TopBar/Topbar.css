@@ -24,7 +24,7 @@
     grid-column: 2/3;
     display: flex;
     gap:5px;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
 }
 
@@ -46,8 +46,6 @@
     display: block;
   }
   
-
-
 
 @media(min-width: 768px){
     .container {
