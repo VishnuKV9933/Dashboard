@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./sidebar.css";
-import image from "../../Assets/profile.jpeg";
+import image from "../../Assets/profile.png";
 import dashboard from "../../Assets/dashboard.png";
 import perks from "../../Assets/perks.png";
 import addons from "../../Assets/addons.png";
