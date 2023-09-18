@@ -14,7 +14,7 @@ function BottomCardContainer() {
             <div className="forever">
                 Free forever
             </div>
-            <h1>Free Starter</h1>
+            <h2>Free Starter</h2>
             <p style={{fontSize:'small'}}>The quick and easiest way to try Protocloes with basic</p>
 
             <div className='leftbutton'>
@@ -45,7 +45,7 @@ function BottomCardContainer() {
             <div className="connect">
                 Free forever
             </div>
-            <h1>Enterprise Plan</h1>
+            <h2>Enterprise Plan</h2>
             <p style={{fontSize:'small'}}>The quick and easiest way to try Protocloes with basic</p>
 
             <div className='rightbutton'>

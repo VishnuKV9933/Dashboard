@@ -21,6 +21,68 @@ z-index: 2;
 box-shadow: 1px 1px 10px hsl(0, 2%, 80%);
 }
 
+.side-section >div{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;;
+}
+.notification{
+    grid-row: 1 span;
+}
+.plus{
+    grid-row: 1 span;
+}
+
+
+.bellcontainer{
+    width: 90%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(66, 66, 250);
+    
+}
+
+.notification-count{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    font-size: 15px;
+    top: -5px;
+    left:-15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottombar{
+    width: 90%;
+    height: 130px;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.plusIcon{
+    margin-top: 30px;
+    width: 60%;
+    height: 30px;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 236, 236);
+    border-radius: 50px;
+    
+}
 
 @media (max-width:768px){
     .container-home-body{
