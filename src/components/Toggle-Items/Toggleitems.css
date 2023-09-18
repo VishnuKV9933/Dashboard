@@ -1,0 +1,22 @@
+.toggle-container{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    z-index: 2;
+    border: 1px solid rgb(150, 150, 150);
+    width: 80%;
+   display: block;
+   height: fit-content;
+   background-color: white;
+   border-radius: 2px;
+}
+
+.items{
+    padding: 10px;
+    border-bottom: 2px solid  rgb(150, 150, 150);
+    font-weight: 500;
+}
+.items:hover{
+    background-color: rgb(184, 220, 255);
+    color: white;
+}

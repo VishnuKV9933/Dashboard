@@ -1,0 +1,30 @@
+.company-name{
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px ;
+    box-shadow: 1px 1px 5px hsl(0, 2%, 80%);
+    color: hsl(0, 0%, 30%);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size:smaller;
+    }
+    
+    .company-name-menu{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 30%);
+    box-shadow: 1px 1px 5px hsl(0, 2%, 80%);
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
