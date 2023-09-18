@@ -1,12 +1,12 @@
 import React from "react";
 import "./Home.css";
-import logo from '../../Assets/logo.png'
-import CompanyName from "../CompanyName/CompanyName";
 import HomeTopSection from "../HomeTopSection/HomeTopSection";
+import HomeBody from "../HomeBody/HomeBody";
 function Home() {
   return (
     <>
       <HomeTopSection/>
+      <HomeBody/>
     </>
   );
 }

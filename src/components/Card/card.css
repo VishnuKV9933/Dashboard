@@ -1,0 +1,45 @@
+.card{
+    width: 300px;
+    box-shadow: 1px 1px 5px hsl(0, 2%, 80%);
+    margin-bottom: 10px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.startbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    width: 200px;
+    gap: 20px;
+    font-size:small;
+    margin-top: 10px;
+
+}
+
+.explore{
+    margin-left: 32px;
+    margin-top: 20px;
+    display: flex;
+    font-size: small;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+@media (max-width:640px) {
+    .card{
+        width: 100%;
+        max-width: 350px;
+    }
+}

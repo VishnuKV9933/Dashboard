@@ -1,0 +1,77 @@
+.dashboard-container{
+    padding: 60px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.peroid{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.peroid > div{
+    width: 250px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 4px;
+    display: flex;
+}
+
+.annually{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.monthly{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #E3F1FE;
+    border-radius: 20px;
+
+}
+
+@media (max-width:768px){
+
+    .peroid{
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+        display: flex;
+        justify-content:center;
+    }
+    .peroid > div{
+        width: 100%px;
+        height: 100%;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 4px;
+        display: flex;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:640px) {
+    .dashboard-container{
+        padding: 30px;
+        background-color: white;
+        width: 100%;
+       
+        height: 100%;
+    }
+}

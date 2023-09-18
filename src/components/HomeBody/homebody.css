@@ -1,0 +1,37 @@
+.container-home-body{
+    display: grid;
+    grid-template-columns: 3fr .1fr;
+}
+
+.main-section{
+    grid-column: 1 span;
+    display: flex;
+   
+}
+
+.side-section{
+    grid-column: 1 span;
+}
+.dashboard{
+    width: 100%;
+}
+.sideBar{
+width: 190px;
+z-index: 2;
+box-shadow: 1px 1px 10px hsl(0, 2%, 80%);
+}
+
+
+@media (max-width:768px){
+    .container-home-body{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .side-section{
+        display: none;
+    }
+
+    .sideBar{
+        display: none;
+    }
+}

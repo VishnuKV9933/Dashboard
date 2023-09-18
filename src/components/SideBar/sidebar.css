@@ -1,0 +1,94 @@
+.sidebar-container {
+  width: 190px;
+  background-color: white;
+  margin-top: 2px;
+}
+
+.profile-box {
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px hsl(0, 2%, 80%);
+  border-radius: 3px;
+}
+
+.image-container {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-left: 20px;
+}
+.name {
+  font-weight: 600;
+}
+.arrow {
+  color: rgb(92, 132, 243);
+}
+
+.email {
+  font-size: small;
+  font-weight: 200;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+  height: fit-content;
+  border-top: 0.2px solid hsl(0, 11%, 96%);
+  border-right: 0.2px solid hsl(0, 11%, 93%);
+  border-bottom: 0.05px solid hsl(0, 11%, 93%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+.current {
+  background-color: #add5fa;
+}
+
+.nav-items img {
+  width: 30px;
+}
+
+.logout{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #1e87e9;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
